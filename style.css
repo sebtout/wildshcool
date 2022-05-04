@@ -44,6 +44,7 @@ li{
 
 .section1{
     text-align: center;
+    background-color: aquamarine;
     background-image: url("assets/Kingdom3.jpeg");
     padding: 200px 0 200px 0;
     object-fit: cover;
@@ -103,6 +104,11 @@ form p{
 }
 input{
     float: right;
+}
+.ombre{
+    box-shadow: 3px 2px 0px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 2px 0px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 0px 0px rgba(0,0,0,0.75);
 }
 .text-message{
     height: 250px;
