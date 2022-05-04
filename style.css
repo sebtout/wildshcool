@@ -1,0 +1,117 @@
+/*GLOBAL*/
+body{
+    margin: 0;
+    margin: auto;
+    max-width: 1280px;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+	color:#fc0000;	
+}
+ul{
+    list-style-type: none;
+}
+body, p{
+    font-family: 'Oleo Script Swash Caps', cursive;
+}
+
+/*INDEX HOME*/
+
+header{
+    background-color: bisque;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+header div img{
+    width: 50%;
+}
+nav ul{
+    display: flex;
+}
+
+li{
+    margin-right: 90px;
+}
+
+/* 1er section*/
+
+.h1-index{
+    text-align: center;
+}
+
+.section1{
+    text-align: center;
+    background-image: url("assets/Kingdom3.jpeg");
+    padding: 200px 0 200px 0;
+    object-fit: cover;
+    background-repeat: no-repeat;
+}
+
+/*seconde section*/
+
+.section2{
+    margin: 0 60px 0 60px;
+}
+
+/*ROYAL FAMILY*/
+
+.section-famille div img{
+    max-width: 175px;
+    max-height: 350px;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.section-famille{
+    display: flex;
+    justify-content: space-around
+}
+.nom-des-rois{
+    text-align: center;
+}
+
+/*ASSETS*/
+
+td, th{
+    border: 1px solid black;
+    padding: 10px 100px 10px 100px;
+}
+th{
+    background-color: rgb(82, 82, 82);
+}
+table{
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+}
+.section-assets{
+    padding: 0 60px 0 60px;
+}
+.color-grey{
+    background-color: rgba(88, 88, 88, 0.158);
+}
+
+/*PAGE CONTACT*/
+
+form p{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    float: right;
+}
+.text-message{
+    height: 250px;
+}
+
+/*FOOTER*/
+
+footer{
+    background-color: bisque;
+    height: 20px;
+    margin-top: 50px;
+}
